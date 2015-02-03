@@ -1,1 +1,82 @@
-Hello, Keybase!
+==================================================================
+https://keybase.io/rsr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ramchand.me
+  * I am rsr (https://keybase.io/rsr) on keybase.
+  * I have a public key with fingerprint 4E09 5E0B 15F8 5BD5 FF58  F02F 034B 5472 E201 63DE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "4e095e0b15f85bd5ff58f02f034b5472e20163de",
+            "host": "keybase.io",
+            "key_id": "034B5472E20163DE",
+            "uid": "0c8f12568467d1b239626c7b84f87200",
+            "username": "rsr"
+        },
+        "merkle_root": {
+            "ctime": 1422979275,
+            "hash": "415f23922c4f75c157f4b9b0214365048f89f4f35f60e7d1cced50b95ecd7426f79cf9d7f6dfdb24dac048503dea935e71db17146d55c5db65e544d1eeeaca64",
+            "seqno": 147132
+        },
+        "service": {
+            "hostname": "ramchand.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422979401,
+    "expire_in": 157680000,
+    "prev": "91145bbbd7ee8cd4e4ffeeb7abf41edf75d6641002339ea77307a54cc3f61b87",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFVkntQVFUcx3dBMDXFyscoNOIdSLRtuY9z7tmFyVDRNGw0Hj7KBu+59xz2wu7e
+5e7yEvHZQIqOzyImM8pSClgfo6CN+QImjPAxvURRhGQciiylSdPB6V4fU56/zpnf
+53x/3+/vnM3DQy0h1tCUdL3bKl+xtvZiS/q5m3OKGawpRUxCMSO7VeINmDuv5CFM
+ApNDirDkJ3ZVi/ZqCrFn+6MfMTYmn+h+VfMaFGtHdp4psZm4eZmq3iyi+3TV1GIA
+YZ2QsJiD1AGxAimFDsrylBUAhgDxhGc5UVCIIenS/IEnujIPNDNVxewigOkmP/MB
+nzzTqOU9LMgOyvFQdAARKRzmBafIizLCDkAdiGdZE/QT/VEk3a+bVj1Ez3GTTF3T
+HuSVA6pZ5QDPO5GTR9AwI/ldpn3DtyHJ8zKgCMocRBRgJ2Z5DggiZIGDOpwUUAFS
+kSVGf1kmCmSxEVlWEOBFipwydSqIigpVMA8USTYuQdZILDkFSBCnYA5xQFQglKGC
+RUggAApHCJFkSQSGez/J9WqmOcQJfIl51vNVmZi+zYk9DiZ5ZJfkVewec5Q+XQto
+suY2Cq5AwJdgZg4U+UywgODMhxJ7SCZWvYrxXP9/T85An5wHYDkbQwp9qk4yVZOA
+SHSwxjL7kHxD08lxAGKMFUSIQ1YAAZQSgpGEKeCIYkxOEUXAsSwvCE4iISSwSIJA
+lgUqctiB/kspGD6lLEPSr2Z5pUCeTpiSdSFRgyzWEEt4WIj5YS1Dh4x8/IvXJkXc
+tw92/ekLFHSOzHBXDF+3fvWp/bNfio8KSabDreEZcwf6Mtojk9rab0f8lnpi+1oX
+F73p2dLaagtwd5/fdaaaH9X4befSMznlYccTvamVBdt6F2VtnfhzaU/IFQasaVna
+Fjmp8NyPafG1e2NCl40vH7H3fNWO91uDzUdrG6Jz0+Im/9E+Sk08/2bpmrqId3uC
+U96aUL2rceXa+PoLv74wtHz8vildjad3fjX6xHu917ds3BDPp7edHPORN2FO+7yM
+Ktc+d92xq3Mb7yysXBH7TMPKI6MPpMUcAlPL66BnW/3ArAObG3KDX9qeLzj2Q2zz
+xO64gzc+LluYvKAiNkKa/NewOWWFs4dUXFvfd3wgJe/qZ3G1B774pfpSfSx+44LY
+kz+tdnGOwPZd7EcVJYkZ7L23Z15csLyS9reeffqVGdZXO4sPf3Pq95RPr6OoGu3g
+kcOXi15sW3J02fxLk3ekBNUYTGxNt25vP3H35CQyphnWTE0IPjfYdzmtf/VrG3z3
+whevCkYEO84e50P3TPcVLp+y23n6n00/dVqvVTF88qzUCUfn3ZxEk6qmb7wVPu2D
+Rb6ud25004m0o3TroL+jZu1PXDKu/i5a8N2asasGxo3gmuLuf309rKXrTsxOT42e
+NPbQ7vH2rqc2dZSkFPV/3vBJXfqRLcVNZS3ZmjtyxYYP54+Or3j9e1tlv5D3Ms62
+dacPc8n/Ag==
+=SGVQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rsr
+
+==================================================================
