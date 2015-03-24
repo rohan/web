@@ -3,9 +3,9 @@ $(document).ready(function() {
   	$("#contents").children().hide();
   	$('#about').show();
   });
-  $('#notes-button').click(function() {
+  $('#writing-button').click(function() {
   	$("#contents").children().hide();
-  	$('#notes').show();
+  	$('#writing').show();
   });
   $('#contact-button').click(function() {
   	$("#contents").children().hide();
