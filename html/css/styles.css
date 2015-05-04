@@ -44,6 +44,7 @@ text {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   -webkit-animation: draw 8s forwards;
+  text-align: center;
 }
 @-webkit-keyframes draw {
   100% {
