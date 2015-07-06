@@ -3,6 +3,10 @@ $(document).ready(function() {
   	$("#contents").children().hide();
   	$('#about').show();
   });
+  $('#projects-button').click(function() {
+    $("#contents").children().hide();
+    $('#projects').show();
+  });
   $('#writing-button').click(function() {
   	$("#contents").children().hide();
   	$('#writing').show();
