@@ -7,10 +7,6 @@ $(document).ready(function() {
     $("#contents").children().hide();
     $('#projects').show();
   });
-  $('#writing-button').click(function() {
-  	$("#contents").children().hide();
-  	$('#writing').show();
-  });
   $('#teaching-button').click(function() {
     $("#contents").children().hide();
     $('#teaching').show();
