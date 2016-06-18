@@ -1,18 +1,22 @@
 $(document).ready(function() {
-  $('#about-button').click(function() {
-  	$("#contents").children().hide();
+  $('#about-link').click(function() {
+  	$("#details").children().hide();
   	$('#about').show();
+    $("html, body, #details").scrollTop(0);
+    // $("#info").height($("#about").height())
   });
-  $('#projects-button').click(function() {
-    $("#contents").children().hide();
+
+  $('#courses-link').click(function() {
+    $("#details").children().hide();
+    $('#courses').show();
+    // $("#info").height($("#courses").height())
+    $("html, body, #details").scrollTop(0);
+  });
+
+  $('#projects-link').click(function() {
+    $("#details").children().hide();
     $('#projects').show();
-  });
-  $('#teaching-button').click(function() {
-    $("#contents").children().hide();
-    $('#teaching').show();
-  });
-  $('#contact-button').click(function() {
-  	$("#contents").children().hide();
-  	$('#contact').show();
+    $("html, body, #details").scrollTop(0);
+    // $("#info").height($("#projects").height())
   });
 });

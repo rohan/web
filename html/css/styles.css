@@ -1,106 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Crimson+Text:400,700);
+
+html, body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Crimson Text', serif;
+  height: 100%;
+}
+
 body {
-  font-family: "Lato";
-  text-align: center;
+  display: flex;
 }
 
-a, a:hover, a:focus {
-	color: #000;
+.padded {
+  padding: 5%;
 }
 
-.email-logo {
-    font-size: 110px;
-    font-family: sans-serif;
-    width: 150px;
-    height: 150px;
-    color: white;
-    background-color: transparent;
-    text-align: center;
-    padding: 0px 0px 0px 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.email-logo > a:hover, a:focus {
-    text-decoration: none;
+#profile {
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  box-shadow: 10px 10px 42px -7px rgba(0,0,0,0.75);
 }
 
-.github-logo {
-    width: 150px;
-    height: 150px;
-    padding: 15px 15px 15px 15px;
-    margin-left: auto;
-    margin-right: auto;
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
-.linkedin-logo {
-    width: 150px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+#info {
+  float: left;
+  background-color: #3F51B5;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
 }
 
-#about-me {
-  margin-left: 20%;
-  margin-right: 20%;
+#info:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle; /* vertical alignment of the inline element */
+  height: 100%;
 }
 
-.circle {
-    -webkit-border-radius: 50em;
-    -moz-border-radius: 50em;
-    border-radius: 50em;
-    width: 200px;
-    height: 200px;
+#info-wrapper {
+  display: inline-block;
+  vertical-align: middle;          /* vertical alignment of the inline element */
 }
 
-.cut-out {
-    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-    -moz-box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-    box-shadow: 0 1px 0 rgba(255,255,255,.2), inset 0 4px 5px rgba(0,0,0,.6), inset 0 1px 0 rgba(0,0,0,.6);
-    overflow: hidden;
+#details {
+  float: right;
+  /*border-left: 1px solid grey;*/
+  background-color: white;
+  height: inherit;
+  color: #212121;
+  overflow: scroll;
+  width: 60%;
 }
-/* experimental! */
 
-text {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  -webkit-animation: draw 8s forwards;
-  text-align: center;
+#info a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #C5CAE9;
 }
-@-webkit-keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+#details a {
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 0px;
 }
-text {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  -webkit-animation: draw 8s forwards;
-  -moz-animation: draw 8s forwards;
-  -o-animation: draw 8s forwards;
-  -ms-animation: draw 8s forwards;
-  animation: draw 8s forwards;
+
+#details .heading {
+  color: #536DFE;
 }
-@-webkit-keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+#title-name {
+  font-size: 32px;
+  text-align: left;
 }
-@-moz-keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+#school-name {
+  font-size: 24px;
+  text-align: left;
+
 }
-@-o-keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+.row {
+  width: 100%;
+  align-items: center;
+  display: flex;
 }
-@-ms-keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+.col {
+  flex: 1;
+  align-items: stretch;
+  align-self: stretch;
+  float: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
 }
-@keyframes draw {
-  100% {
-    stroke-dashoffset: 0;
-  }
+
+.s2 {
+  width: 50%;
+}
+
+.s3 {
+  width: 33%;
+}
+
+.s4 {
+  width: 25%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.listing-head {
+  width: 15%;
+  float: left;
+  border-right: 1px solid black;
+  text-align: right !important;
+  padding-right: 20px;
+}
+
+.listing {
+  width: 85%;
+  float: right;
+  text-align: left !important;
+  padding-left: 20px;
+}
+
+.listing-row {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+#wrapper {
+  align-self: stretch;
 }
