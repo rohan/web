@@ -4,11 +4,15 @@ html, body {
   margin: 0px;
   text-align: center;
   font-family: 'Crimson Text', serif;
-  height: 100%;
 }
 
 body {
   display: flex;
+}
+
+h3, h4 {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
 }
 
 .padded {
@@ -33,6 +37,7 @@ body {
   color: white;
   font-family: 'Montserrat', sans-serif;
   width: 40%;
+  align-self: stretch;
 }
 
 #info:before {
@@ -60,7 +65,7 @@ body {
 #info a {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #C5CAE9;
+  color: #FFEB3B;
 }
 
 #details a {
@@ -79,7 +84,7 @@ body {
 }
 
 #school-name {
-  font-size: 24px;
+  font-size: 20px;
   text-align: left;
 
 }
@@ -93,7 +98,6 @@ body {
 .col {
   flex: 1;
   align-items: stretch;
-  align-self: stretch;
   float: left;
   padding-top: 2%;
   padding-bottom: 2%;
