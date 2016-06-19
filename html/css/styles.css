@@ -52,6 +52,10 @@ h3, h4 {
   vertical-align: middle;          /* vertical alignment of the inline element */
 }
 
+#info #email {
+  font-family: 'Crimson Text', serif;
+}
+
 #details {
   float: right;
   /*border-left: 1px solid grey;*/
