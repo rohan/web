@@ -70,15 +70,14 @@ h3, h4 {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #FFEB3B;
-  transition: all 500ms ease;
   border-bottom: 1px solid rgba(192, 192, 192, 0);
   /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
   
-  -webkit-transition: border 500ms ease;
-  -moz-transition: border 500ms ease;
-  -ms-transition: border 500ms ease;
-  -o-transition: border 500ms ease;
-  transition: border 500ms ease; 
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; 
 }
 
 #info a:hover {
