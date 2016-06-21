@@ -70,6 +70,23 @@ h3, h4 {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   color: #FFEB3B;
+  transition: all 500ms ease;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease; 
+}
+
+#info a:hover {
+  color: white;
+}
+
+#info .external:hover {
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
 }
 
 #details a {
@@ -102,7 +119,6 @@ h3, h4 {
 .col {
   flex: 1;
   align-items: stretch;
-  float: left;
   padding-top: 2%;
   padding-bottom: 2%;
   width: 100%;
