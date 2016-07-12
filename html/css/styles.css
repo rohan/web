@@ -108,6 +108,10 @@ h3, h4 {
   color: #536DFE;
 }
 
+#details .heading a {
+  line-height: inherit;
+}
+
 #title-name {
   font-size: 32px;
   text-align: left;
