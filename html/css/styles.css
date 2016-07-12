@@ -31,6 +31,10 @@ h3, h4 {
   text-transform: uppercase;
 }
 
+#info, #details {
+  padding: 0px;
+}
+
 #info {
   float: left;
   background-color: #3F51B5;
@@ -60,10 +64,16 @@ h3, h4 {
   float: right;
   /*border-left: 1px solid grey;*/
   background-color: white;
-  height: inherit;
   color: #212121;
   overflow: scroll;
   width: 60%;
+  height: 100%;
+}
+
+#welcome {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #info a {
