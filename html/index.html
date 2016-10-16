@@ -8,6 +8,7 @@
     <meta name="keywords" content="rohan, ramchand, ut, austin, programming, computer science">
 
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -17,14 +18,14 @@
     <title>Rohan Ramchand</title>
   </head>
   <body>
-    <div class="row" id="wrapper">
-      <div class="col s2" id="info">
-        <div class="container" id="info-wrapper">
-          <div class="row">
-            <div class="col padded">
-              <img id="profile" src="img/profile.jpg">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 vertical-center" id="info">
+        <div style="padding-top: 5%" class="container-fluid">
+          <div class="row vertical-align">
+            <div class="col-sm-6">
+              <img class="center-block img-circle img-responsive" id="profile" src="img/profile.jpg">
             </div>
-            <div class="col padded">
+            <div class="col-sm-6">
               <h1 class="heading" id="title-name">Rohan Ramchand</h1>
               <h2 class="heading" id="school-name">The University of Texas at Austin</h2>
             </div>
@@ -33,94 +34,96 @@
           <br>
 
           <div class="row">
-            <div class="col s3">
+            <div class="col-sm-4">
               <h3>BS Computer Science</h3>
             </div>
-            <div class="col s3" style="width: 34%">
+            <div class="col-sm-4">
               <h3>BSA Mathematics</h3>
             </div>
-            <div class="col s3">
+            <div class="col-sm-4">
               <h3>BA Government</h3>
             </div>
           </div>
 
           <div class="row">
-            <div class="col s3">
+            <div class="col-sm-4">
               <h4>Turing Scholar</h4>
             </div>
-            <div class="col s3" style="width: 34%">
+            <div class="col-sm-4">
             </div>
-            <div class="col s3">
-              <h4>2016 Archer Fellow</h4>
+            <div class="col-sm-4">
+              <h4>Archer Fellow</h4>
             </div>
           </div>
           <br>
           <div class="row">
-            <a href="#" id="about-link" class="col s3 heading">ABOUT ME</a>
-            <a href="#" id="courses-link" class="col s3 heading" style="width: 34%">COURSES</a>
-            <a href="#" id="projects-link" class="col s3 heading">PROJECTS</a>
+            <div class="col-sm-4">
+              <a href="#" id="about-link" class="heading">ABOUT ME</a>
+            </div>
+            <div class="col-sm-4">
+              <a href="#" id="courses-link" class="heading">COURSES</a>
+            </div>
+            <div class="col-sm-4">
+              <a href="#" id="projects-link" class="heading">PROJECTS</a>
+            </div>
           </div>
           <br>
           <div class="row">
-            <div class="col s3">
-              <a href="http://github.com/rohan" target="_blank" class="col s3 heading external">GITHUB</a>
+            <div class="col-sm-4">
+              <a href="http://github.com/rohan" target="_blank" class="heading external">GITHUB</a>
             </div>
-            <div class="col s3">
-              <a href="resume2.pdf" target="_blank" id="resume-link" class="col s3 heading external">RESUME</a>
+            <div class="col-sm-4">
+              <a href="resume2.pdf" target="_blank" id="resume-link" class="heading external">RESUME</a>
             </div>
-            <div class="col s3">
-              <a href="http://linkedin.com/in/rramchand" target="_blank" class="col s3 heading external">LINKEDIN</a>
+            <div class="col-sm-4">
+              <a href="http://linkedin.com/in/rramchand" target="_blank" class="heading external">LINKEDIN</a>
             </div>
           </div>
 
-          <p style="padding-top: 30px">email me at rohan [at] ramchand [dot] me</h5>
+          <div class="row" style="margin-top: 30px">
+            <p>email me at rohan [at] ramchand [dot] me</p>
+          </div>
         </div>
       </div> <!-- info col -->
-
-      <div class="col s2" id="details">
-        <div class="container animated fadeInLeft" id="welcome">
+      
+      <div class="col-sm-12 col-md-6 vertical-center" id="details">
+        <div class="container animated fadeInLeft center-block" id="welcome">
           <h2 class="heading">WELCOME</h2>
           <p>Click the links on the left to learn more.</p>
         </div>
 
-        <div class="container animated fadeInLeft" id="about" style="display: none">
+        <div class="container animated fadeInLeft center-block" id="about" style="display: none; text-align: left">
           <h2 class="heading">ABOUT ME</h2>
-          I'm a rising senior at the University of Texas at Austin, seeking degrees in computer science, mathematics, and government. Since May 2014, I have been a member of the Turing Scholars, the computer science honors program at UT. I am a pod mentor, responsible for mentoring and advising new students, introducing them to the facilities and programs available to them, and helping them with the transition between high school and college. I am also a Computer Science Ambassador; I give tours of the building and chat with prospective students about being a student at UT.
-          <br>
-          <br>
-          I was recently named a 2016 Archer Fellow. The Archer Fellowship is a
+          <p>I'm a rising senior at the University of Texas at Austin, seeking degrees in computer science, mathematics, and government. Since May 2014, I have been a member of the Turing Scholars, the computer science honors program at UT. I am a pod mentor, responsible for mentoring and advising new students, introducing them to the facilities and programs available to them, and helping them with the transition between high school and college. I am also a Computer Science Ambassador; I give tours of the building and chat with prospective students about being a student at UT.</p>
+
+          <p>I was recently named a 2016 Archer Fellow. The Archer Fellowship is a
           semester-long program where students from the UT system spend a
           semester in Washington, DC, working full-time at an internship in the
           city while taking courses taught by UT professors. Around 50 students
           are selected each year; I am one of two computer scientists in my year
-          and the only mathematics major to have been selected to the program.
-          <br>
-          <br>
-          My Archer internship is at the White House Office of Science and
+          and the only mathematics major to have been selected to the program.</p>
+
+          <p>My Archer internship is at the White House Office of Science and
           Technology Policy, where I am an intern in the President's Council of
-          Advisors on Science and Technology coordination office.
-          <br>
-          <br>
-          My academic interests can be divided into three sections. In computer science, I am doing research in probabilistic type theory in the context of natural-language database queries. In mathematics, my interests lie primarily in topology and algebra. In government, I am interested in constitutional law and public policy, especially as it relates to technology.
-          <br>
-          <br>
-          I write for the <a href="http://cs.utexas.edu/blog">department blog</a>; some of my articles have received more than a thousand reads, and more than one student has informed me that my article on my first year at UT was the deciding factor in their decision to come to Austin. Furthermore, in Spring 2015, I had an op-ed published in the <i>Daily Texan</i>, UT's school newspaper; read the article <a href="www.dailytexanonline.com/2015/02/24/now-is-the-time-for-a-dedicated-college-of-computer-sciences-at-ut">here</a>.
-          <br>
-          <br>
-          I worked for three summers in high school at different labs, writing code and helping conduct research. I spent a summer building the tech stack at a small real estate management company in Houston, including setting up servers for data management. I interned at <a href="http://bloomberg.com">Bloomberg</a> in New York City from May until August 2014, where I worked on building a visualization tool for our volatilities data. I interned at <a href="http://apple.com">Apple Inc.</a> in Cupertino, CA from May until August 2015, where I worked on the Proactive Assistant team building internal tools and prototyping new software. I am interning at <a href="http://palantir.com">Palantir</a> in Washington, DC during summer 2016.
-          <br>
-          <br>
-          I am also a singer, and since January 2015 have served as the Director of the <a href="http://songhorns.org">Texas Songhorns</a>, helping them learn new music and setting the organization's goals. (I am also our webmaster.) In December 2014, I was asked by my alma mater, <a href="http://sjs.org">St. John's School</a> in Houston, to perform as the soloist at our Christmas mass, and sang Ralph Vaughan Williams' <em>Fantasia on Christmas Carols</em>, a personal favorite of mine. I also play the piano, although much less diligently.
+          Advisors on Science and Technology coordination office.</p>
+
+          <p>My academic interests can be divided into three sections. In computer science, I am doing research in probabilistic type theory in the context of natural-language database queries. In mathematics, my interests lie primarily in topology and algebra. In government, I am interested in constitutional law and public policy, especially as it relates to technology.</p>
+
+          <p>I wrote for the <a href="http://cs.utexas.edu/blog">department blog</a> for two and a half years; some of my articles have received more than a thousand reads, and more than one student has informed me that my article on my first year at UT was the deciding factor in their decision to come to Austin. Furthermore, in Spring 2015, I had an op-ed published in the <i>Daily Texan</i>, UT's school newspaper; read the article <a href="www.dailytexanonline.com/2015/02/24/now-is-the-time-for-a-dedicated-college-of-computer-sciences-at-ut">here</a>.</p>
+
+          <p>I worked for three summers in high school at different labs, writing code and helping conduct research. I spent a summer building the tech stack at a small real estate management company in Houston, including setting up servers for data management. I interned at <a href="http://bloomberg.com">Bloomberg</a> in New York City from May until August 2014, where I worked on building a visualization tool for our volatilities data. I interned at <a href="http://apple.com">Apple Inc.</a> in Cupertino, CA from May until August 2015, where I worked on the Proactive Assistant team building internal tools and prototyping new software. I interned at <a href="http://palantir.com">Palantir</a> in Washington, DC during summer 2016.</p>
+
+          <p>I am also a singer, and since January 2015 have served as the Director of the <a href="http://songhorns.org">Texas Songhorns</a>, helping them learn new music and setting the organization's goals. (I am also our webmaster.) In December 2014, I was asked by my alma mater, <a href="http://sjs.org">St. John's School</a> in Houston, to perform as the soloist at our Christmas mass, and sang Ralph Vaughan Williams' <em>Fantasia on Christmas Carols</em>, a personal favorite of mine. I also play the piano, although much less diligently.</p>
         </div> <!-- about me container-->
 
-        <div class="container animated fadeInLeft" id="courses" style="display: none">
-          <h2 class="heading">COURSES</h2>
+        <div class="container animated fadeInLeft center-block" id="courses" style="display: none">
+          <h2 class="heading text-left">COURSES</h2>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Fall 2013</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Fall 2013</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[UGS 303] Originality in the Arts and Sciences (S. Kopp)</li>
                 <li>[M 427L-AP] Advanced Calculus with Applications II (J. Gilbert)</li>
@@ -131,10 +134,10 @@
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Spring 2014</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Spring 2014</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[CS 429H] Computer Organization and Architecture (E. Witchel)</li>
                 <li>[M 427K-H] Advanced Calculus with Applications I (D. Knopf)</li>
@@ -145,10 +148,10 @@
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Fall 2014</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Fall 2014</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[CS 439H] Principles of Computer Systems (A. Gheith)</li>
                 <li>[M 365C] Real Analysis I (L. Caffarelli)</li>
@@ -158,10 +161,10 @@
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Spring 2015</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Spring 2015</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[CS 331H] Algorithms and Complexity (V. Ramachandran)</li>
                 <li>[CS 343H] Artificial Intelligence (P. Stone)</li>
@@ -172,23 +175,24 @@
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Fall 2015</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Fall 2015</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[CS 345H] Programming Languages (T. Dillig)</li>
                 <li>[CS 353] Theory of Computation (A. Gal)</li>
+                <li>[M 362K] Probability I (J. Luecke)</li>
                 <li>[M 367K] Topology I (M. Starbird)</li>
               </ul>
             </div>
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Spring 2016</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Spring 2016</p>
             </div>
-            <div class="listing">
+            <div class="col-xs-8 col-md-10">
               <ul style="list-style-type: none">
                 <li>[CS 378H] Distributed Computing (L. Alvisi)</li>
                 <li>[GOV 357M] Constitutional Interpretation (H.W. Perry)</li>
@@ -197,58 +201,86 @@
               </ul>
             </div>
           </div>
+
+          <div class="row listing-row">
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Fall 2016</p>
+            </div>
+            <div class="col-xs-8 col-md-10">
+              <ul style="list-style-type: none">
+                <li>[GOV 662L] Government Internship</li>
+                <li>[GOV 370P] The Policy-Making Process (M. Chin)</li>
+                <li>[CMS 373D] Advocacy and Politics (J. Daly)</li>
+                <li>[CMS 374D] The Politics of National Memory (J. Swerdlow)</li>
+              </ul>
+            </div>
+          </div>
         </div> <!-- courses container -->
 
-        <div class="container animated fadeInLeft" id="projects" style="display: none">
-          <h2 class="heading">PROJECTS</h2>
+        <div class="container animated fadeInLeft center-block" id="projects" style="display: none">
+          <h2 class="heading text-left">PROJECTS</h2>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading"> <a href="http://github.com/rohan/foodme">foodme</a></h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">GroupMe bot</p>
+<!--               <div class="row">
+                <p class="heading col-xs-12">AnalyticsBot</p>
+              </div>
+              <div class="row">
+                <a href="http://github.com/" class="col-xs-12"><img src="img/github.png" style="display: block"></img></a>
+              </div> -->
             </div>
-            <div class="listing">
-              Developed for HackDFW 2015, foodme is an app that connects users with people in the area interested in getting food at local restaurants. foodme uses your location to find restaurants near you, lets you select the date and time you want to get food, the number of people you want to get food with, and adds you to a group; when your group is filled, everyone in the group gets a notification and is added to a group chat (powered by GroupMe).github link
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left">AnalyticsBot is a bot that runs on top of GroupMe, receiving commands and processing them. While its main feature is user analysis -- number of likes given to or by a user, most commonly used words, etc. -- it also has a rudimentary imitation engine. The engine takes in as a corpus all of the user's messages, sorted in weight by number of likes, and uses a Markov chain to generate the simulation. <a class="external" href="http://github.com/rohan/groupme-markov">GitHub</a></p>
             </div>
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading"> <a href="http://github.com/rohan/-Print">πPrint</a></h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading"> foodme<!-- <a href="http://github.com/rohan/foodme">foodme</a> --></p>
             </div>
-            <div class="listing">
-              <p>πPrint (pronounced "pi-print") is a tool that sets up a CUPS-based print server on a Raspberry Pi connected to a printer. A website allows users to upload files onto the RPi (via a PHP script that runs some basic sanity checks against malicious users); a bash script is loaded every minute via a cronjob that finds connected printers, loads the first one, and prints everything in the upload folder. The uploaded files are then archived, and eventually deleted for security reasons.</p>
-            </div>
-          </div>
-
-          <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">modulus operandi</h4>
-            </div>
-            <div class="listing">
-              Developed for HackRice 2014, modulus operandi (or mo) is a service that provides secure end-to-end encryption for file uploads. mo's primary feature is that all data is encrypted by the client, as opposed to by the server, to protect user privacy from man-in-the-middle attacks. Files can be uploaded via a command-line script, and can be shared in small groups with a known password.
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left"> Developed for HackDFW 2015, foodme is an app that connects users with people in the area interested in getting food at local restaurants. foodme uses your location to find restaurants near you, lets you select the date and time you want to get food, the number of people you want to get food with, and adds you to a group; when your group is filled, everyone in the group gets a notification and is added to a group chat (powered by GroupMe). <a class="external" href="http://github.com/rohan/foodme">GitHub</a></p>
             </div>
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">L++</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading"> πPrint<!-- <a href="http://github.com/rohan/-Print">πPrint</a> --></p>
             </div>
-            <div class="listing">
-              L++ is an extension of the toy functional programming language L. Developed with <a href="http://arknave.me">Arnav Sastry</a> and <a href="http://tpopp.com">Tres Popp</a> for our final project in our Programming Languages class, L++ adds type inference, list polymorphism, type inference, and sockets to L. The infile is lexed using flex, parsed using bison, and then evaluated in a suite written in C++.
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left">πPrint (pronounced "pi-print") is a tool that sets up a CUPS-based print server on a Raspberry Pi connected to a printer. A website allows users to upload files onto the RPi (via a PHP script that runs some basic sanity checks against malicious users); a bash script is loaded every minute via a cronjob that finds connected printers, loads the first one, and prints everything in the upload folder. The uploaded files are then archived, and eventually deleted for security reasons. <a class="external" href="http://github.com/rohan/πPrint">GitHub</a></p>
             </div>
           </div>
 
           <div class="row listing-row">
-            <div class="listing-head">
-              <h4 class="heading">Paxos</h4>
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">L++</p>
             </div>
-            <div class="listing">
-              One of the projects assigned in honors Distributed Computing was to implement a chat room, backed by the asynchronous consensus algorithm Paxos. Paxos tolerates all but one server crashing and our implementation further allows for servers, once crashed, to come back to life and rejoin the system. The project was implemented over the course of two weeks in Java along with <a href="http://deholton.com/">Kyle DeHolton</a>.
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left">L++ is an extension of the toy functional programming language L. Developed with <a href="http://arknave.me">Arnav Sastry</a> and <a href="http://tpopp.com">Tres Popp</a> for our final project in our Programming Languages class, L++ adds type inference, list polymorphism, type inference, and sockets to L. The infile is lexed using flex, parsed using bison, and then evaluated in a suite written in C++.</p>
+            </div>
+          </div>
+
+          <div class="row listing-row">
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">Paxos</p>
+            </div>
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left">One of the projects assigned in honors Distributed Computing was to implement a chat room, backed by the asynchronous consensus algorithm Paxos. Paxos tolerates all but one server crashing and our implementation further allows for servers, once crashed, to come back to life and rejoin the system. The project was implemented over the course of two weeks in Java along with <a href="http://deholton.com/">Kyle DeHolton</a>.</p>
+            </div>
+          </div>
+
+          <div class="row listing-row">
+            <div class="col-xs-4 col-md-2 vertical-center listing-head">
+              <p class="heading">modulus operandi</p>
+            </div>
+            <div class="col-xs-8 col-md-10">
+              <p class="text-left">Developed for HackRice 2014, mo (modulus operandi) is a service that provides secure end-to-end encryption for file uploads. mo's primary feature is that all data is encrypted by the client, as opposed to by the server, to protect user privacy from man-in-the-middle attacks. Files can be uploaded via a command-line script, and can be shared in small groups with a known password.</p>
             </div>
           </div>
 
         </div> <!-- projects container -->
-
       </div> <!-- details col -->
     </div> <!-- row -->
 

@@ -1,59 +1,110 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Crimson+Text:400,700);
 
 html, body {
-  margin: 0px;
   text-align: center;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Crimson Text', serif !important;
+  height: 100%;
 }
 
-body {
-  display: flex;
+body, #info {
+  background-color: #3F51B5 !important;
 }
 
-h3, h4 {
+/*h3, h4 {
   -webkit-margin-before: 0px;
   -webkit-margin-after: 0px;
+}*/
+
+#info, #details {
+  min-height: 100%;
 }
 
-.padded {
-  padding: 5%;
+#main-row {
+  height: 100%;
+  display: table-row;
+}
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .row.vertical-align {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 #profile {
-  border-radius: 50%;
-  width: inherit;
-  height: inherit;
   box-shadow: 10px 10px 42px -7px rgba(0,0,0,0.75);
+  border: 30px;
+}
+
+@media (max-width: 992px) {
+  #profile {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 0px;
+  }
+}
+
+@media(max-width: 400px) {
+
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none;
+  /* reset the text-align */
+  text-align:left;
+  /* inline-block space fix */
+  margin-right:-4px;
+}
+
+@media(min-width: 1200px) {
+  #profile {
+    width: initial;
+    max-width: 250px;
+    height: initial;
+    max-height: 250px;
+  }
+}
+
+.headline {
+  display: flex;
+  align-items: center;
 }
 
 .heading {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-}
-
-#info, #details {
-  padding: 0px;
+  margin: 0 auto;
 }
 
 #info {
-  float: left;
-  background-color: #3F51B5;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  width: 40%;
-  align-self: stretch;
-}
-
-#info:before {
-  content: ' ';
-  display: inline-block;
-  vertical-align: middle; /* vertical alignment of the inline element */
-  height: 100%;
-}
-
-#info-wrapper {
-  display: inline-block;
-  vertical-align: middle;          /* vertical alignment of the inline element */
 }
 
 #info #email {
@@ -61,19 +112,12 @@ h3, h4 {
 }
 
 #details {
-  float: right;
-  /*border-left: 1px solid grey;*/
   background-color: white;
   color: #212121;
   overflow: scroll;
-  width: 60%;
-  height: 100%;
-}
-
-#welcome {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  border: 12px solid #3F51B5;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #info a {
@@ -94,7 +138,7 @@ h3, h4 {
   color: white;
 }
 
-#info .external:hover {
+.external:hover {
   border-bottom: 1px solid rgba(192, 192, 192, 1);
 }
 
@@ -102,56 +146,50 @@ h3, h4 {
   text-decoration: none;
   font-weight: bold;
   line-height: 0px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; 
+}
+
+#details a:hover {
+  color: black;
+}
+
+.external:hover {
+  border-bottom: 1px solid rgba(192, 192, 192, 1);
 }
 
 #details .heading {
   color: #536DFE;
 }
 
+#courses .listing-row .heading, #projects .listing-row .heading {
+  text-align: right;
+  margin-right: 0px;
+}
+
 #details .heading a {
   line-height: inherit;
 }
 
+@media(min-width: 992px) {
+  #title-name, #school-name {
+    text-align: left;
+  }
+}
+
 #title-name {
   font-size: 32px;
-  text-align: left;
+  margin-bottom: 15px;
 }
 
 #school-name {
   font-size: 20px;
-  text-align: left;
-
-}
-
-.row {
-  width: 100%;
-  align-items: center;
-  display: flex;
-}
-
-.col {
-  flex: 1;
-  align-items: stretch;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  width: 100%;
-}
-
-.s2 {
-  width: 50%;
-}
-
-.s3 {
-  width: 33%;
-}
-
-.s4 {
-  width: 25%;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .listing-head {
@@ -160,6 +198,7 @@ h3, h4 {
   border-right: 1px solid black;
   text-align: right !important;
   padding-right: 20px;
+  padding-left: 0px !important;
 }
 
 .listing {
@@ -177,6 +216,11 @@ h3, h4 {
 
 ul {
   padding-left: 0px;
+}
+
+#courses ul {
+  list-style-type: none;
+  text-align: left;
 }
 
 #wrapper {
